@@ -9,30 +9,40 @@
 /*  main work  */
 
 body {
-    background-color: lightgray;
+    background-color: rgb(230, 230, 230);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .wrapper {
     width: 600px;
     margin: 0 auto;
     background-color: white;
+    border-radius: 6px;
+    padding-bottom: 30px;
 }
+
+/* HEADER */
 
 .nav-bar {
     height: 80px;
     line-height: 80px;
     background-color: white;
+    padding-left: 20px;
+    border-bottom: 2px solid rgb(230, 230, 230); 
+    
 }
 
-.nav-bar .boolean-logo {
+.boolean-logo {
     width: 50px;
     vertical-align: middle;
+    margin-right: 10px;
 }
 
-.nav-bar .title {
-    display: inline;
+.title {
+    display: inline-block;
     vertical-align: middle;
 }
+
 
 .interactive-buttons {
     font-style: italic;
@@ -40,9 +50,8 @@ body {
     border: 0;
 }
 
-.interactive-buttons .button-task {
+.button-task {
     background-color: lightskyblue;
-    padding: 10px;
     color: azure;
     border: 1%;
     border-radius: 10%;
@@ -50,8 +59,7 @@ body {
     border-color: lightskyblue;
 }
 
-.interactive-buttons .button-section {
-    padding: 10px;
+.button-section {
     color: gray;
     background-color: rgb(255, 255, 255);
     border: 1%;
