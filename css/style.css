@@ -43,18 +43,22 @@ body {
     vertical-align: middle;
 }
 
+.button-row{
+    padding: 20px;
+}
 
 .interactive-buttons {
-    font-style: italic;
-    padding: 10px;
-    border: 0;
+   font-size: 12px;
+   padding: 7px 12px;
+   border-radius: 6px;  
+   border: 1px solid;
+   cursor: pointer;
 }
+
 
 .button-task {
     background-color: lightskyblue;
     color: azure;
-    border: 1%;
-    border-radius: 10%;
     display: inline-block;
     border-color: lightskyblue;
 }
@@ -62,8 +66,7 @@ body {
 .button-section {
     color: gray;
     background-color: rgb(255, 255, 255);
-    border: 1%;
     display: inline-block;
-    border-radius: 10%;
     border-color: gray;
+    margin-left: 5px;
 }
