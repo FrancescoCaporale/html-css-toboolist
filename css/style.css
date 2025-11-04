@@ -1,0 +1,25 @@
+/* RESET CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+}
+.nav-bar{
+    height: 120px;
+    line-height: 120px;
+    background-color: white;
+}
+
+.nav-bar .boolean-logo{
+    width: 100px;
+    vertical-align: middle;
+}
+
+.nav-bar .title{
+    display: inline;
+    vertical-align: middle;
+}
