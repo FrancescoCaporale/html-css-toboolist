@@ -1,25 +1,61 @@
 /* RESET CSS */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+/*  main work  */
+
+body {
     background-color: lightgray;
 }
-.nav-bar{
-    height: 120px;
-    line-height: 120px;
+
+.wrapper {
+    width: 600px;
+    margin: 0 auto;
     background-color: white;
 }
 
-.nav-bar .boolean-logo{
-    width: 100px;
+.nav-bar {
+    height: 80px;
+    line-height: 80px;
+    background-color: white;
+}
+
+.nav-bar .boolean-logo {
+    width: 50px;
     vertical-align: middle;
 }
 
-.nav-bar .title{
+.nav-bar .title {
     display: inline;
     vertical-align: middle;
+}
+
+.interactive-buttons {
+    font-style: italic;
+    padding: 10px;
+    border: 0;
+}
+
+.interactive-buttons .button-task {
+    background-color: lightskyblue;
+    padding: 10px;
+    color: azure;
+    border: 1%;
+    border-radius: 10%;
+    display: inline-block;
+    border-color: lightskyblue;
+}
+
+.interactive-buttons .button-section {
+    padding: 10px;
+    color: gray;
+    background-color: rgb(255, 255, 255);
+    border: 1%;
+    display: inline-block;
+    border-radius: 10%;
+    border-color: gray;
 }
