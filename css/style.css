@@ -70,3 +70,33 @@ body {
     border-color: gray;
     margin-left: 5px;
 }
+
+.task-area {
+    padding: 20px;
+}
+
+.section li {
+    margin: 10px 0;
+    list-style: none;
+}
+
+.section_title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.tag {
+    font-size: 10px;
+    padding: 3px 8px;
+    border-radius: 8px;
+    color: white;
+    margin-left: 8px;
+}
+
+editorial { background-color: lightblue; }
+.q1 { background-color: violet; }
+.recruiting { background-color: lightgreen; }
+.mobile { background-color: orange; }
+.website { background-color: pink; }
+.sales { background-color: yellow; }
